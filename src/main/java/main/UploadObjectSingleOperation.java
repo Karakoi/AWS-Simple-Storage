@@ -19,7 +19,7 @@ public class UploadObjectSingleOperation {
     private static String uploadFileName = "E:\\Документи\\Git - repositories\\AWS_S3\\src\\main\\resources\\item1.txt";
 
     public static void main(String[] args) throws IOException {
-        AWSCredentials credentials = new BasicAWSCredentials("AKIAJ44J2WC5TPTQB6BQ", "noglhGwjWvC51ZPeCqFoyjyXzSDSM01CY5cUyYKZ");
+        AWSCredentials credentials = new BasicAWSCredentials("***", "***");
 //        uploadFile(credentials);
 //        readFile(credentials);
         deleteFile(credentials);
